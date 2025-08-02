@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.form-part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+body{
+    background:linear-gradient(rgb(28, 208, 208),rgb(13, 13, 203),rgb(2, 2, 51))
+}
+form{
+    height: 780px;
+    width: 900px;
+    color: white;
+    font-size: large;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgba(0, 0, 0, 0.297);
+    text-align: center;
+    margin-top: 5%;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: rgb(18, 15, 15);
+    padding-top: 5.5%;
+    font-weight: lighter;
+}
+p{
+    margin: 1.1%;
+    margin-top: 25px;
+    font-size: large;
+    text-align:start;
+}
+input{
+    width: 600px;
+    height: 30px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border: 0px;
+    color: rgb(0, 0, 0);
+}
+#space,#space1,#space2{
+    width: 297px;
+}
+::placeholder{
+    color: rgb(101, 99, 99);
+}
+.icon{
+    margin-top: 40px;
+    background-color: blue;
+    width: 180px;
+    text-align: center;
+    height: 45px;
+    border: none;
+    color: white;
+}
+.icon a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: large;
+}
+i{
+    padding-right: 10px;
+    font-size: medium;
+}
+.empty{
+    height: 150px;
+}
+/* hover section */
+.icon:hover{
+    transform: scale(1.06);
+    transition: 0.36s;
+}
+input:hover{
+    border: 2px solid orange;
+}
+
+
+
